@@ -5,4 +5,33 @@
 <h1> Información de contacto</h1>
 <p>Si estás interesado en mis servicios de desarrollo Web no dudes en contactarme por alguno de los siguientes medios.</p>
 
+<div>
+    
+    <h3>Ubicación: Sahagún Cordoba Colombia </h3>
+    <h3>cel: 3024435672</h3>
+    <h3>Correo electrónico: nuestro@correo.com</h3>
+</div>
+<br/>
+<hr/>
+<div>
+    <h2 class="title"> Contacte conmigo</h2>
+    <form>
+        <label for="asunto">ASUNTO</label>
+        <select name="asunto">
+            <option value="1">Cotización</option>
+            <option value="0">Mantenimiento</option>
+        </select>
+
+        <label for="email">CORREO ELECTRÓNICO</label>
+        <input type="email"  placeholder="su@email.com" name="email"/> 
+
+        <label for="archivo">ARCHIVO ADJUNTO</label>  
+        <input type="file" name="file"/>
+
+        <label for="mensaje">MENSAJE</label>
+        <textarea name="mensaje" ></textarea>
+        
+        <input type="submit" value="Enviar"/>
+    </form>
+</div>
 {% endblock %}
