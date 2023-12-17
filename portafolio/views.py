@@ -9,3 +9,6 @@ def proyectos(request):
 
 def contacto(request):
     return render(request, 'contacto.html')
+
+def certificados(request):
+    return render(request, 'certificados.html')
