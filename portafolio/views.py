@@ -7,8 +7,12 @@ def index(request):
 def proyectos(request):
     return render(request, 'proyectos.html')
 
+def certificados(request):
+    return render(request, 'certificados.html')
+
+def blog(request):
+    return render(request, 'blog.html')
+
 def contacto(request):
     return render(request, 'contacto.html')
 
-def certificados(request):
-    return render(request, 'certificados.html')
